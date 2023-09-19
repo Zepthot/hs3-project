@@ -1,0 +1,9 @@
+/* Remove default margin and set font */
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "neuropol";
+    src: url("/assets/neuropol.otf");
+}
