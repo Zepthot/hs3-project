@@ -1,6 +1,9 @@
+// import assets
 import hbackground from '../assets/header.webp';
 import logo from '../assets/logo.webp';
+// import components
 import HeaderParticles from './particles';
+// import css
 import '../styles/header.scss';
 
 // Header function with logo and navigation menu

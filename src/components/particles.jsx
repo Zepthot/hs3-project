@@ -1,3 +1,4 @@
+// import modules
 import Particles from "react-tsparticles";
 import { loadFull } from 'tsparticles';
 
