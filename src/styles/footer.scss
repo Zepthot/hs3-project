@@ -1,0 +1,145 @@
+// footer component with all children
+.footer-component {
+    background-color: #2f2f2f;
+    height: 165px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    // background image
+    .footer-background {
+        position: absolute;
+        rotate: 180deg;
+        height: 150px;
+        width: 100%;
+        z-index: 0;
+        object-fit: cover;
+        border-image: linear-gradient(#2dd8ff, rgba(255, 0, 0, 0)) 150;
+        border-width: 15px;
+        border-style: solid;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+    }
+    // subscription form container
+    .footer-container-form {
+        z-index: 1;
+        height: 165px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20%;
+        margin-right: 5%;
+        // banner
+        .container-subscribe-ban {
+            z-index: 1;
+            width: 100%;
+            position: relative;
+            top: -10px;
+            min-width: 950px;
+        }
+        // subscription form
+        .container-form {
+            z-index: 2;
+            position: absolute;
+            margin-top: 35px;
+            height: 80px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            margin-left: 15px;
+            // label
+            .form-label {
+                font-family: "neuropol";
+                font-size: larger;
+                font-weight: 600;
+                margin-left: 45px;
+            }
+            // input and button container
+            .container-sub-field {
+                display: flex;
+                gap: 30px;
+                //input
+                .form-input {
+                    height: 25px;
+                    width: 350px;
+                    border-radius: 10px;
+                    border-color: #2f2f2f;
+                    transition-property: border-color;
+                    padding: 0 7px;
+                    font-family: "neuropol";
+                    margin-left: -16px;
+                }
+
+                .form-input:focus-visible {
+                    border-color: #2dd8ff;
+                }
+                // button
+                .form-button {
+                    border-radius: 10px;
+                    background-color: #155665;
+                    border-color: #2dd8ff;
+                    color: #ffffff;
+                    font-family: "neuropol";
+                    transition-property: border-color background-color color;
+                    transition-duration: 0.5s;
+                }
+
+                .form-button:hover {
+                    cursor: pointer;
+                    border-color: #155665;
+                    background-color: #2dd8ff;
+                    color: black;
+                }
+            }
+        }
+    }
+    // social network links container
+    .footer-container-social {
+        z-index: 1;
+        margin-top: -15px;
+        min-width: 195px;
+        margin-left: 5%;
+        margin-right: 15%;
+        // one-line container
+        .container-containers {
+            display: flex;
+            gap: 35px;
+            // container image link
+            .container-link-img {
+                position: relative;
+                height: 80px;
+                width: 80px;
+                // background image
+                .hexagon {
+                    position: absolute;
+                }
+                // social network link
+                .link-icon {
+                    position: absolute;
+                    top: 23px;
+                    left: 24px;
+                    //social network icon
+                    .icon{
+                        width: 32px;
+                        height: 32px;
+                        filter: invert(64%) sepia(36%) saturate(991%) hue-rotate(158deg) brightness(105%) contrast(103%);
+                    }
+                }
+
+                .link-icon:hover {
+
+                    .icon{
+                        filter: invert(100%) sepia(0%) saturate(7449%) hue-rotate(306deg) brightness(92%) contrast(113%);
+                    }
+                }
+            }
+        }
+        // 2nd line container
+        .links-2 {
+            margin-left: -57px;
+            margin-top: -40px;
+        }
+    }
+}

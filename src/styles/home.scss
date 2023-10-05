@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     gap: 50px;
-    padding-top: 25px;
+    padding: 175px 0 35px;
     // hs3 header image
     .homepage-hs3header {
         max-width: 1275px;
@@ -34,11 +34,11 @@
         }
         // first custom
         .content-1 {
-            top: 40%;
+            top: 38%;
         }
         // second custom
         .content-2 {
-            top: 64%;
+            top: 62%;
         }
     }
 }
