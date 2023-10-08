@@ -1,3 +1,5 @@
+// import libraries
+import { NavLink } from 'react-router-dom';
 // import assets
 import hbackground from '../assets/header.webp';
 import logo from '../assets/logo.webp';
@@ -13,13 +15,15 @@ function Header () {
             <HeaderParticles />
             {/* background image */}
             <img src={hbackground} alt='Plusieurs hexagones formant un cadrillage avec des interstices' className='header-background' />
-            {/* logo hs3 */}
-            <img src={logo} alt='Logo en forme de cube avec écrit HS3' className='header-logo' />
+            <NavLink to='/' className='header-links'>
+                {/* logo hs3 */}
+                <img src={logo} alt='Logo en forme de cube avec écrit HS3' className='links-logo' />
+            </NavLink>
             {/* navigation menu */}
             <nav className='header-nav'>
                 <ul>
-                    <li>A propos</li>
-                    <li>Kickstarter</li>
+                    <li><NavLink to='/about' className='nav-links'>A propos</NavLink></li>
+                    <li><NavLink to='/kickstarter' className='nav-links'>Kickstarter</NavLink></li>
                 </ul>
             </nav>
         </header>

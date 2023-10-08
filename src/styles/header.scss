@@ -28,13 +28,26 @@
         border-right: 0;
         border-top: 0;
     }
-    // logo hs3
-    .header-logo {
+    .header-links {
         z-index: 1;
+        height: 100px;
+        width: 100px;
+        margin: 25px 50px;
+        border-radius: 50%;
+        transition: 0.5s;
+        // logo hs3
+        .links-logo {
+            height: 150px;
+            margin-top: -25px;
+            margin-left: -25px;
+        }
     }
-    .header-logo:hover {
+
+    .header-links:hover {
         cursor: pointer;
+        box-shadow: 0px 0px 20px 18px #2dd8ff, inset 0px 0px 20px 5px #2dd8ff;
     }
+
     // navigation menu
     .header-nav {
         text-transform: uppercase;
@@ -50,18 +63,23 @@
             li {
                 list-style-type: none;
                 height: 100%;
-                color: #f4f4f4;
                 font-family: "neuropol";
                 font-size: 30px;
                 display: flex;
                 align-items: center;
-                transition-property: color;
-                transition-duration: 0.5s;
-            }
 
-            li:hover {
-                color: #0bb7cb;
-                cursor: pointer;
+                .nav-links {
+                    list-style-type: none;
+                    text-decoration: none;
+                    color: #f4f4f4;
+                    padding: 10px;
+                    transition: 0.5s;
+                }
+
+                .nav-links:hover {
+                    color: #0bb7cb;
+                    box-shadow: 0px 0px 15px 10px #2dd8ff, inset 0px 0px 12px 5px #2dd8ff;
+                }
             }
         }
     }
