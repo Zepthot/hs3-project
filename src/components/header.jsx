@@ -1,8 +1,8 @@
 // import libraries
 import { NavLink } from 'react-router-dom';
 // import assets
-import hbackground from '../assets/header.webp';
-import logo from '../assets/logo.webp';
+import hbackground from '../assets//backgrounds/header.webp';
+import logo from '../assets/icons/logo.webp';
 // import components
 import HeaderParticles from './particles';
 // import css
@@ -24,6 +24,7 @@ function Header () {
                 <ul>
                     <li><NavLink to='/about' className='nav-links'>A propos</NavLink></li>
                     <li><NavLink to='/kickstarter' className='nav-links'>Kickstarter</NavLink></li>
+                    <li><NavLink to='/who' className='nav-links'>Qui sommes-nous ?</NavLink></li>
                 </ul>
             </nav>
         </header>

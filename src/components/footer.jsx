@@ -1,11 +1,11 @@
 // import assets
-import fbackground from '../assets/header.webp';
-import contentbg from '../assets/title-background.webp';
-import networkbg from '../assets/hexa.webp';
-import fbicon from '../assets/facebook.webp';
-import xicon from '../assets/twitter.webp';
-import discordicon from '../assets/discord.webp';
-import ksicon from '../assets/kickstarter.webp';
+import fbackground from '../assets/backgrounds/header.webp';
+import contentbg from '../assets/backgrounds/title-background.webp';
+import networkbg from '../assets/icons/hexa.webp';
+import fbicon from '../assets/icons/facebook.webp';
+import xicon from '../assets/icons/twitter.webp';
+import discordicon from '../assets/icons/discord.webp';
+import ksicon from '../assets/icons/kickstarter.webp';
 // import css
 import '../styles/footer.scss';
 

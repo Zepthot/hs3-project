@@ -4,6 +4,118 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
-    padding: 175px 0 35px;
+    gap: 40px;
+    padding: 175px 0 75px;
+
+    .ks-container {
+        max-width: 1275px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+
+        .container-why {
+            width: 75%;
+        }
+
+        .container-build {
+            width: 85%;
+        }
+
+        .container-content {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: large;
+            text-align: justify;
+            max-width: 55%;
+            width: 55%;
+            position: absolute;
+            left: 22%;
+        }
+
+        .content-1 {
+            top: 30%;
+        }
+
+        .content-2 {
+            top: 40%;
+        }
+
+        .content-3 {
+            top: 50%;
+        }
+
+        .container-li {
+            padding: 0;
+            top: 11%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            list-style: none;
+            left: 18%;
+
+            li {
+                display: flex;
+                align-items: center;
+                font-weight: 500;
+            }
+
+            li::before {
+                content: '';
+                display: inline-block;
+                padding: 30px 35px 0 0;
+                background-image: url('../assets/icons/hexa.webp');
+                background-repeat: no-repeat;
+                background-position: left center;
+                background-size: 30px;
+            }
+
+            p {
+                margin: 20px 0 0 0;
+                font-weight: 100;
+                font-size: small;
+            }
+        }
+
+        .li-goals {
+            top: 25%;
+            gap: 45px;
+        }
+
+        .li-plan {
+            top: 23%;
+            gap: 40px;
+
+            p {
+                margin-top: 0;
+            }
+        }
+
+        .content-budg {
+            color: #00709a;
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: small;
+            max-width: 300px;
+        }
+
+        .budg-pub {
+            top: 48%;
+            left: 21%;
+        }
+
+        .budg-adm {
+            top: 73%;
+            left: 18%;
+        }
+
+        .budg-ks {
+            top: 49%;
+            left: 43%;
+        }
+
+        .budg-dev {
+            top: 72%;
+            left: 60%;
+        }
+    }
 }
