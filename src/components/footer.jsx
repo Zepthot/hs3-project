@@ -34,14 +34,14 @@ function Footer () {
                     {/* facebook container */}
                     <div className='container-link-img'>
                         <img src={networkbg} alt='test1' className='hexagon' />
-                        <a href='https://www.facebook.com/HologramStylishShooterEsports' target='_blank' rel='noreferrer' className='link-icon'> 
+                        <a href='https://www.facebook.com/HologramStylishShooterEsports' target='_blank' rel='noreferrer' className='link-icon icon-fb'> 
                             <img src={fbicon} alt='testfb' className='icon' />
                         </a>
                     </div>
                     {/* twitter container */}
                     <div className='container-link-img'>
                         <img src={networkbg} alt='test1' className='hexagon' />
-                        <a href='https://twitter.com/KY_HS3' target='_blank' rel='noreferrer' className='link-icon'> 
+                        <a href='https://twitter.com/KY_HS3' target='_blank' rel='noreferrer' className='link-icon icon-twt'> 
                             <img src={xicon} alt='testx' className='icon' />
                         </a>
                     </div>
@@ -51,14 +51,14 @@ function Footer () {
                     {/* discord container */}
                     <div className='container-link-img'>
                         <img src={networkbg} alt='test1' className='hexagon' />
-                        <a href='https://discord.gg/XWN9kVSKdY' target='_blank' rel='noreferrer' className='link-icon'> 
+                        <a href='https://discord.gg/XWN9kVSKdY' target='_blank' rel='noreferrer' className='link-icon icon-disc'> 
                             <img src={discordicon} alt='testdiscord' className='icon' />
                         </a>
                     </div>
                     {/* kickstarter container */}
                     <div className='container-link-img'>
                         <img src={networkbg} alt='test1' className='hexagon' />
-                        <a href='https://www.kickstarter.com/projects/kompagnygames/hs3-hologram-stylish-shooter-esports' target='_blank' rel='noreferrer' className='link-icon'> 
+                        <a href='https://www.kickstarter.com/projects/kompagnygames/hs3-hologram-stylish-shooter-esports' target='_blank' rel='noreferrer' className='link-icon icon-ks'> 
                             <img src={ksicon} alt='testks' className='icon' />
                         </a>
                     </div>

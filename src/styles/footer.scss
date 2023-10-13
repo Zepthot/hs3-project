@@ -127,11 +127,30 @@
                         filter: invert(64%) sepia(36%) saturate(991%) hue-rotate(158deg) brightness(105%) contrast(103%);
                     }
                 }
+                // custom color on hover
+                .icon-fb:hover {
+                    .icon{
+                        filter: invert(42%) sepia(42%) saturate(601%) hue-rotate(182deg) brightness(88%) contrast(99%);
+                    }
+                }
 
-                .link-icon:hover {
+                .icon-twt:hover {
+                    .icon{
+                        filter: invert(98%) sepia(99%) saturate(7%) hue-rotate(26deg) brightness(104%) contrast(100%);
+                    }
+                }
+
+                .icon-disc:hover {
 
                     .icon{
-                        filter: invert(100%) sepia(0%) saturate(7449%) hue-rotate(306deg) brightness(92%) contrast(113%);
+                        filter: invert(53%) sepia(100%) saturate(231%) hue-rotate(188deg) brightness(84%) contrast(92%);
+                    }
+                }
+
+                .icon-ks:hover {
+
+                    .icon{
+                        filter: invert(90%) sepia(72%) saturate(7435%) hue-rotate(65deg) brightness(93%) contrast(86%);
                     }
                 }
             }
