@@ -1,4 +1,4 @@
-// import modules
+// import libraries
 import Particles from "react-tsparticles";
 import { loadFull } from 'tsparticles';
 
@@ -75,5 +75,5 @@ function ParticlesBackground() {
         />
     )
 }
-
+// Export to call it
 export default ParticlesBackground;

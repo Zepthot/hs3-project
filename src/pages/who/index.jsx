@@ -1,5 +1,7 @@
+// import css
 import '../../styles/who.scss';
 
+// Who function
 function Who() {
     return (
         <section className='who-component'>
@@ -7,5 +9,5 @@ function Who() {
         </section>
     );
 }
-
+// Export to call it up in index.js
 export default Who;

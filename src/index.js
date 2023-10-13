@@ -1,6 +1,8 @@
+// import libraries
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
+// import components
 import Header from './components/header';
 import App from './pages/home';
 import About from './pages/about';

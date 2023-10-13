@@ -6,22 +6,22 @@
     align-items: center;
     gap: 40px;
     padding: 175px 0 75px;
-
+    // container
     .ks-container {
         max-width: 1275px;
         position: relative;
         display: flex;
         justify-content: center;
         margin-top: 50px;
-
+        // why kickstarter background image
         .container-why {
             width: 75%;
         }
-
+        // pledges background image
         .container-build {
             width: 85%;
         }
-
+        // all content
         .container-content {
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             font-size: large;
@@ -31,7 +31,7 @@
             position: absolute;
             left: 22%;
         }
-
+        // custom place
         .content-1 {
             top: 30%;
         }
@@ -43,7 +43,7 @@
         .content-3 {
             top: 50%;
         }
-
+        // list container
         .container-li {
             padding: 0;
             top: 11%;
@@ -52,13 +52,13 @@
             gap: 30px;
             list-style: none;
             left: 18%;
-
+            // match text and bulletpoint
             li {
                 display: flex;
                 align-items: center;
                 font-weight: 500;
             }
-
+            // custom bulletpoint
             li::before {
                 content: '';
                 display: inline-block;
@@ -68,14 +68,14 @@
                 background-position: left center;
                 background-size: 30px;
             }
-
+            // paragraph content
             p {
                 margin: 20px 0 0 0;
                 font-weight: 100;
                 font-size: small;
             }
         }
-
+        // custom list
         .li-goals {
             top: 25%;
             gap: 45px;
@@ -89,7 +89,7 @@
                 margin-top: 0;
             }
         }
-
+        // custom paragraph
         .content-budg {
             color: #00709a;
             font-weight: 500;
@@ -97,7 +97,7 @@
             font-size: small;
             max-width: 300px;
         }
-
+        // custom place
         .budg-pub {
             top: 48%;
             left: 21%;

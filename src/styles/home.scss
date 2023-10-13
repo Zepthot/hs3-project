@@ -41,21 +41,21 @@
             top: 62%;
         }
     }
-
+    // youtube video container
     .homepage-video-container {
         position: relative;
         display: flex;
         justify-content: center;
-
+        // background image
         .video-background {
             background-color: #2f2f2f;
         }
-
+        // youtube component container
         .video-responsive {
             position: absolute;
             left: 126px;
             top: 73px;
-
+            // video
             iframe {
                 border: none;
             }

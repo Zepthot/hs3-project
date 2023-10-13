@@ -2,7 +2,7 @@
 body {
     margin: 0;
 }
-
+/* add custom font */
 @font-face {
     font-family: "neuropol";
     src: url("/assets/neuropol.otf");

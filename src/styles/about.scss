@@ -6,18 +6,18 @@
     align-items: center;
     gap: 50px;
     padding: 175px 0 35px;
-
+    // container with background image and text
     .about-container {
         max-width: 1275px;
         position: relative;
         display: flex;
         justify-content: center;
         margin: 50px 0;
-
+        // image
         .container {
             width: 75%;
         }
-
+        // text
         .container-content {
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             font-size: large;
@@ -27,7 +27,7 @@
             position: absolute;
             left: 22%;
         }
-
+        // custom place
         .content-1 {
             top: 25%;
         }
@@ -44,26 +44,26 @@
             top: 68%;
         }
     }
-
+    // carousel component container
     .about-carousel {
         max-width: 1100px;
         position: relative;
-
+        // carousel component
         .carousel-root {
             max-width: 854px;
             position: absolute;
             top: 172px;
             left: 128px;
-
+            // li component for each image in carousel
             .slide {
                 max-width: 854px;
                 max-height: 480px;
                 display: flex;
-
+                // image container
                 div {
                     position: relative;
                     overflow: hidden;
-
+                    // image
                     img {
                         height: 100%;
                         object-fit: cover;

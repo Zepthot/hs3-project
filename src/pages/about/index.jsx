@@ -1,4 +1,4 @@
-// import modules
+// import libraries
 import { Carousel } from 'react-responsive-carousel';
 // import assets
 import featuresfr from '../../assets/backgrounds/features-fr.png';
@@ -36,24 +36,33 @@ import sheidfrana3 from '../../assets/concept-arts/CityLake.jpg';
 import '../../styles/about.scss';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
+// About function
 function About() {
     return (
         <section className='about-component'>
+            {/* features container */}
             <div className='about-container'>
+                {/* background image */}
                 <img src={featuresfr} alt='Fond stylisé contenant les fonctionnalités' className='container' />
+                {/* paragraph content */}
                 <p className='container-content content-1'><strong>Un dynamisme unique :</strong> Que vous utilisiez une compétence spéciale ou non, profitez du panel de mouvements possibles pour surprendre l'adversaire, atteindre des endroits surélevés ou vous hâter vers votre objectif. Courez sur les murs, prenez appui sur un poteau pour changer de direction ou créez un mur pour l'utiliser comme plateforme, les possibilités de mouvements sont nombreuses pour traverser votre environnement.</p>
                 <p className='container-content content-2'><strong>Une grande variété d'armes et de compétences :</strong> Que vous soyez en faveur d'armes classiques ou expérimentales, des simples mitraillettes aux fusils lasers spéciaux, larsenal vous fournira de nombreuses options pour surpasser vos opposants ou aider vos alliés. Les compétences, quant à elles, vont de la simple augmentation de vie ou l'invisibilité, à la bulle temporelle et la lévitation, et vous apporteront ce qu'il vous faut pour renforcer votre style de jeu.</p>
                 <p className='container-content content-3'><strong>Des modes de jeu classiques et originaux :</strong> Découvrez des modes tels que le mode TouchDown, dérivé du football américain, ou encore le mode Hunter, durant lequel un joueur choisi au hasard aura un temps limité pour traquer et abattre les autres joueurs de la partie. Si vous êtes plus friand de modes de jeu simples, vous trouverez votre bonheur avec les modes DeathMatch, un match à mort en chacun pour soi, et TeamBattle, un match à mort par équipe.</p>
                 <p className='container-content content-4'><strong>Une garde robe à votre goût :</strong> Personnalisez l'apparence de vos personnage en choisissant un ensemble de vêtements, ou en combinant des éléments provenant de tenues différentes pour faire vos compositions. Avec une collection en constante évolution, et des styles allant des plus simples aux plus extravagants, vous avez l'embarras du choix pour vous démarquer de vos pairs.</p>
             </div>
+            {/* story container */}
             <div className='about-container'>
+                {/* background image */}
                 <img src={storyfr} alt="Fond stylisé contenant l'histoire" className='container' />
+                {/* paragraph content */}
                 <p className='container-content content-2'>Après quelques milliers d'années, la planète Xolora s'est remise de l'ancienne civilisation qui a failli l'anéantir. Suite à ces évènements, les restes de cette civilisation se sont mis d'accord pour préserver leurs écosystèmes respectifs.</p>
                 <p className='container-content content-3'>Au fil des années, les pays se réunissent pour faire avancer le monde. Ils utilisent un événement sportif holographique, Xolora Tournament, pour mettre en avant leurs progrès technologiques, leurs performances et asseoir leurs positions, si leurs performances sont meilleures que les autres nations.</p>
             </div>
             {/* weapons carousel */}
             <div className='about-carousel'>
+                {/* background image */}
                 <img src={carouselbgweaponfr} alt='Fond stylisé pour le carousel contenant les armes' />
+                {/* carousel component */}
                 <Carousel>
                     <div>
                         <img src={armes1} alt='3 Prototypes de Mousquets' />
@@ -71,7 +80,9 @@ function About() {
             </div>
             {/* skills carousel */}
             <div className='about-carousel'>
+                {/* background image */}
                 <img src={carouselbgskillsfr} alt='Fond stylisé pour le carousel contenant les compétences' />
+                {/* carousel component */}
                 <Carousel>
                     <div>
                         <img src={skill1} alt='Prototype de boulier énergétique en forme de mur' />
@@ -85,7 +96,9 @@ function About() {
             </div>
             {/* sativa map carousel */}
             <div className='about-carousel'>
+                {/* background image */}
                 <img src={carouselbgsativa} alt='Fond stylisé pour le carousel contenant la carte sativa' />
+                {/* carousel component */}
                 <Carousel>
                     <div>
                         <img src={sativa1} alt='Concept art de la carte Sativa' />
@@ -111,7 +124,9 @@ function About() {
             </div>
             {/* platform map carousel */}
             <div className='about-carousel'>
+                {/* background image */}
                 <img src={carouselbgplatform} alt='Fond stylisé pour le carousel contenant la carte platform' />
+                {/* carousel component */}
                 <Carousel>
                     <div>
                         <img src={platform1} alt='Concept art de la carte Platform' />
@@ -125,7 +140,9 @@ function About() {
             </div>
             {/* drone carousel */}
             <div className='about-carousel'>
+                {/* background image */}
                 <img src={carouselbgdron} alt='Fond stylisé pour le carousel contenant les drones' />
+                {/* carousel component */}
                 <Carousel>
                     <div>
                         <img src={dron1} alt='Esquisse des drones et de leurs propulseurs' />
@@ -139,7 +156,9 @@ function About() {
             </div>
             {/* chara design carousel */}
             <div className='about-carousel'>
+                {/* background image */}
                 <img src={carouselbgcharafr} alt='Fond stylisé pour le carousel contenant les personnages' />
+                {/* carousel component */}
                 <Carousel>
                     <div>
                         <img src={chara1} alt='Concept art du personnage féminin' />
@@ -165,7 +184,9 @@ function About() {
             </div>
             {/* sheid frana carousel */}
             <div className='about-carousel'>
+                {/* background image */}
                 <img src={carouselbgsheidfrana} alt='Fond stylisé pour le carousel contenant sheid frana' />
+                {/* carousel component */}
                 <Carousel>
                     <div>
                         <img src={sheidfrana1} alt='Artwork de Sheid Frana, la capitale' />
@@ -184,5 +205,5 @@ function About() {
         </section>
     );
 }
-
+// Export to call it up in index.js
 export default About;

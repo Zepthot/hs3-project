@@ -30,6 +30,5 @@ function Header () {
         </header>
     );
 }
-
 // Export to call it up in index.js
 export default Header;

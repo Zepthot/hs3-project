@@ -9,7 +9,7 @@ import ksicon from '../assets/icons/kickstarter.webp';
 // import css
 import '../styles/footer.scss';
 
-// Header function with logo and navigation menu
+// Footer function with subscribe form and social networks
 function Footer () {
     return (
         <footer className="footer-component">
@@ -67,6 +67,5 @@ function Footer () {
         </footer>
     );
 }
-
 // Export to call it up in index.js
 export default Footer;

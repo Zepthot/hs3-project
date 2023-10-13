@@ -7,17 +7,24 @@ import kickplanbg from '../../assets/backgrounds/ks-planbg.png';
 // import css
 import '../../styles/kickstarter.scss';
 
+// Kickstarter function
 function Kickstarter() {
     return (
         <section className='kickstarter-component'>
+            {/* why kickstater container */}
             <div className='ks-container'>
+                {/* background image */}
                 <img src={kickbgfr} alt='Fond stylisé contenant le pourquoi kickstarter' className='container-why' />
+                {/* paragraph content */}
                 <p className='container-content content-1'>Nous nous sommes tournés vers le financement participatif car nous souhaitons être aussi <strong>indépendants</strong> que possible. Nous ne voulons pas compromettre la vision que nous avons pour HS3. Nous aimerions garder cet aspect « par et pour des joueurs ».</p>
                 <p className='container-content content-2'>Nous voulons également utiliser Kickstarter comme une plateforme pour rassembler <strong>une première communauté</strong>, avec laquelle les retours et échanges se feraient plus naturellement que si nous nous étions lancés par d'autres biais.</p>
                 <p className='container-content content-3'>Pour ce qui est du montant du financement, il nous faudrait 200 000 euros, mais nous entamons une procédure avec le CNC, le Centre National du Cinéma et de l'image animée, pour obtenir une aide de 100 000 euros, ce qui diminuerait d'autant ce qu'il nous faut pour un développement complet. C'est pourquoi nous avons défini un objectif de financement initial de 120 800 euros, afin d’intégrer les frais de Kickstarter. Une fois cet objectif atteint, tout argent supplémentaire nous permettrait d'investir plus de moyens afin de développer du contenu supplémentaire, qui sera ajouté après la sortie du jeu, sous forme de modes de jeu, d'événements ou de tournois par exemple.</p>
             </div>
+            {/* pledges container */}
             <div className='ks-container'>
+                {/* background image */}
                 <img src={kickpledgesbgfr} alt='Fond stylisé contenant les contributions' className='container-build' />
+                {/* list content with custom bulletpoint */}
                 <ul className='container-content container-li'>
                     <li>5 € = Ajout du nom/pseudo dans les « crédits » partie remerciement</li>
                     <li>10 € = + Titre/icône pour participation (pionnier/fondateur)</li>
@@ -37,8 +44,11 @@ function Kickstarter() {
                     <p>* Le prix entre crochets correspond au prix sans la remise en quantité limitée « early bird ». Une fois les quantités épuisées, le prix de la contribution passera au prix entre crochets.</p>
                 </ul>
             </div>
+            {/* stretch goals container */}
             <div className='ks-container'>
-                <img src={kickgoalsbg} alt='Fond stylisé contenant les streach goals' className='container-build' />
+                {/* background image */}
+                <img src={kickgoalsbg} alt='Fond stylisé contenant les strech goals' className='container-build' />
+                {/* list content with custom bulletpoint */}
                 <ul className='container-content container-li li-goals'>
                     <li>130.000 € = Ajout d'une carte pour 4 modes</li>
                     <li>140.000 € = Ajout d'un mode de jeu supplémentaire</li>
@@ -48,15 +58,21 @@ function Kickstarter() {
                     <li>1.000.000 € = Implémentation d'un éditeur de carte</li>
                 </ul>
             </div>
+            {/* budget container */}
             <div className='ks-container'>
+                {/* background image */}
                 <img src={kickbudgetbg} alt='Fond stylisé contenant le budget en forme de bar de progression hachurée' className='container-build' />
+                {/* paragraph content with custom place */}
                 <p className='container-content content-budg budg-pub'>Publicité</p>
                 <p className='container-content content-budg budg-adm'>Administration/Frais d'entreprise</p>
                 <p className='container-content content-budg budg-ks'>Frais Kickstarter</p>
                 <p className='container-content content-budg budg-dev'>Développement</p>
             </div>
+            {/* planning container */}
             <div className='ks-container'>
+                {/* background image */}
                 <img src={kickplanbg} alt='Fond stylisé contenant le planning' className='container-build' />
+                {/* list content with custom bulletpoint */}
                 <ul className='container-content container-li li-plan'>
                     <li>Alpha (2 mois) : Lanceur, menu, base du gameplay, mouvements, 2 modes de jeu, 2 arènes, 5 armes, 6 compétences.<br></br>Accès interne uniquement.</li>
                     <li>Bêta (1 mois) : 9 armes, 8 compétences, 2 modes de jeu, 1 arène, boutique.<br></br>Accès interne et contributeurs supérieur à 20€</li>
@@ -68,5 +84,5 @@ function Kickstarter() {
         </section>
     );
 }
-
+// Export to call it up in index.js
 export default Kickstarter;

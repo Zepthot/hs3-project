@@ -1,6 +1,8 @@
+// import libraries
 import React from "react";
 import PropTypes from "prop-types";
 
+// Youtube video parameters
 const YoutubeEmbed = ({ embedId }) => (
     <div className="video-responsive">
         <iframe
@@ -17,5 +19,5 @@ const YoutubeEmbed = ({ embedId }) => (
 YoutubeEmbed.propTypes = {
     embedId: PropTypes.string.isRequired
 };
-
+// Export to call it
 export default YoutubeEmbed;
