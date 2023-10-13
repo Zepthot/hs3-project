@@ -202,6 +202,7 @@ function About() {
                     </div>
                 </Carousel>
             </div>
+            <p className='artwork-credit'>Tous les concept arts et images sont réalisés par <a href='https://qenus.artstation.com/' target='_blank' rel='noreferrer'>Quentin Dognon</a></p>
         </section>
     );
 }

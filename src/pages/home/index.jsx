@@ -29,6 +29,8 @@ function Core() {
                 <img src={youtubebg} alt='Fond stylisé contenant le trailer youtube' className='video-background' />
                 {/* youtube component */}
                 <YoutubeEmbed embedId="X_3mOh7VJeU" />
+                {/* video credit */}
+                <p className='video-credit'>Vidéo réalisée par <a href='https://www.motionalien.com/' target='_blank' rel='noreferrer'>Motionalien Studio</a></p>
             </div>
         </section>
     );
