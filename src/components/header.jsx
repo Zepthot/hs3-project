@@ -24,7 +24,7 @@ function Header () {
                 <ul>
                     <li><NavLink to='/about' className='nav-links'>A propos</NavLink></li>
                     <li><NavLink to='/kickstarter' className='nav-links'>Kickstarter</NavLink></li>
-                    <li><NavLink to='/who' className='nav-links'>Qui sommes-nous ?</NavLink></li>
+                    <li><NavLink to='/whoweare' className='nav-links'>Qui sommes-nous ?</NavLink></li>
                 </ul>
             </nav>
         </header>

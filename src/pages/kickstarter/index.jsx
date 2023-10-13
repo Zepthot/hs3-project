@@ -1,9 +1,9 @@
 // import assets
 import kickbgfr from '../../assets/backgrounds/kickstarterbg-fr.webp';
 import kickpledgesbgfr from '../../assets/backgrounds/ks-pledgesbg-fr.png';
-import kickgoalsbg from '../../assets/backgrounds/ks-goalsbg.png';
-import kickbudgetbg from '../../assets/backgrounds/ks-budgetbg.png';
-import kickplanbg from '../../assets/backgrounds/ks-planbg.png';
+import kickgoalsbg from '../../assets/backgrounds/ks-goalsbg.webp';
+import kickbudgetbg from '../../assets/backgrounds/ks-budgetbg.webp';
+import kickplanbg from '../../assets/backgrounds/ks-planbg.webp';
 // import css
 import '../../styles/kickstarter.scss';
 

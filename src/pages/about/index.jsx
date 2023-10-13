@@ -1,7 +1,7 @@
 // import libraries
 import { Carousel } from 'react-responsive-carousel';
 // import assets
-import featuresfr from '../../assets/backgrounds/features-fr.png';
+import featuresfr from '../../assets/backgrounds/features-fr.webp';
 import storyfr from '../../assets/backgrounds/story-fr.webp';
 import carouselbgweaponfr from '../../assets/backgrounds/carousel-bg-weapon-fr.webp';
 import armes1 from '../../assets/concept-arts/armes copy.jpg';
@@ -28,7 +28,7 @@ import chara2 from '../../assets/concept-arts/Charadesign 02.jpg';
 import chara3 from '../../assets/concept-arts/Charadesign KICKSTARTER black.jpg';
 import chara4 from '../../assets/concept-arts/Charadesign KICKSTARTER.jpg';
 import chara5 from '../../assets/concept-arts/hairsdesign copy.jpg';
-import carouselbgsheidfrana from '../../assets/backgrounds/carousel-bg-sheidfrana.png';
+import carouselbgsheidfrana from '../../assets/backgrounds/carousel-bg-sheidfrana.webp';
 import sheidfrana1 from '../../assets/concept-arts/CityLakeFINAL2.jpg';
 import sheidfrana2 from '../../assets/concept-arts/CityLakeFINAL.jpg';
 import sheidfrana3 from '../../assets/concept-arts/CityLake.jpg';
