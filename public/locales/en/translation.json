@@ -1,0 +1,245 @@
+{
+    "header-title": {
+        "about": "About",
+        "whoweare": "Who are we?",
+        "alt": {
+            "headerbg": "Several hexagons forming a grid with interstices",
+            "logo": "Cube logo with HS3 lettering",
+            "flagbg": "Stylized background with hexagons",
+            "flagfr": "French flag",
+            "flagen": "English flag"
+        }
+    },
+    "homepage": {
+        "paragraph1": {
+            "content1": ", or ",
+            "content2": ", is a nervous and energetic person action game, made by players for the players. Wheter you play occasionally or competitively, inspired by exciting close battles or blazing ranged fights, ",
+            "content3": "you won't run out of action",
+            "content4": ". Define ",
+            "content5": "your own playstyle",
+            "content6": " with unique weapons and special skills, and face other players in various game modes, from the classics to original ones."
+        },
+        "paragraph2": {
+            "content1": "The game will initially be ",
+            "content2": "free-to-play",
+            "content3": ", available on PC for Windows, on english and french. In the future, we might develop a Linux version and add more languages, like german, spanish and portuguese."
+        },
+        "video-credit": "Video made by ",
+        "alt": {
+            "hs3header": "Containing stylized logo and full name",
+            "introbg": "Stylized background with introduction",
+            "youtubebg": "Stylized background containing the youtube trailer"
+        }
+    },
+    "footer": {
+        "form": {
+            "label": "Subscribe to our newsletter!",
+            "placeholder": "Your email address",
+            "button": "Subscribe"
+        },
+        "alt": {
+            "footerbg": "Several hexagons forming a grid with interstices",
+            "formcontainer": "Banner with news subscription field",
+            "hexagon": "Hexagon blue transparent inside",
+            "iconfb": "F from facebook",
+            "icontwt": "X from twitter",
+            "icondisc": "Robot Clyde from discord",
+            "iconks" : "K from Kickstarter"
+        }
+    },
+    "about": {
+        "features": {
+            "background": "./assets/background/features-en.webp",
+            "first": {
+                "point": "Unique moveset:",
+                "explain": " With or without using a special skill, take advantage of the range of possible moves to catch your opponent off-guard, reach elevated spots or get to your objective faster. Wall run, wall jump on a pole to take another direction, or create a wall to use as a platform, the possibilities are plenty to cross the battlefield."
+            },
+            "second": {
+                "point": "Wide variety of weapons and special skills:",
+                "explain": " Whether you are interested in traditional or experimental weapons, from the simple submachine guns to the modified laser rifles, the arsenal will provide you many options to defeat your foes or help your allies. The special skills can go from the plain health points boost or invisibility, to the time bubbleor levitation, and will bring you what you need to strengthen your playstyle."
+            },
+            "third": {
+                "point": "Game modes, classics and new:",
+                "explain": " Discover game modes, such as the TouchDown mode, derived from american football, or the Hunter mode, in which a randomly chosen player has limited time to hunt the other players down. If you're more fond of traditional game maodes, you will be comfortable with the DeathMatch mode, a free-for-all, and the TeamBattle mode, a team deathmatch."
+            },
+            "fourth": {
+                "point": "Dress as you like:",
+                "explain": " Customize your character's appearance by wearing a costume set, or by selecting elements from many different sets to compose your outfit. with a clothing collection constantly expanding, and styles from plain clothes to flashy attires, many options are at your disposal to make you stand out."
+            }
+        },
+        "story": {
+            "1": {
+                "content1": "After thousands of years, the ",
+                "content2": "Xolora planet",
+                "content3": " recovered from the ",
+                "content4": "ancient civilization",
+                "content5": " that almost caused it to perish. Following those events, the remnants of this civilization have agreed to ",
+                "content6": "preserve their respective ecosystems."
+            },
+            "2": {
+                "content1": "Year after year, the nations unite to move the world forward. They use a ",
+                "content2": "holographic sport event",
+                "content3": ", the Xolora Tournament, to push their progress, performances and sustain their leadership. It's now your turn to prove your worth and honour your team by fighting in the arena."
+            }
+        },
+        "carousel": {
+            "weapons": {
+                "legend1": "3 Musket Prototypes",
+                "legend2": "Reworking the first prototype",
+                "legend3": "2 Offensive Shield Prototypes"
+            },
+            "skills": {
+                "legend1": "Prototype of a wall-shaped energy shield",
+                "legend2": "Bubble-shaped energy shield prototype"
+            },
+            "sativa": {
+                "legend1": "Sativa map concept art",
+                "legend2": "Sketch of a crane and drone factory",
+                "legend3": "Sketch of energy batteries and antigrav containers",
+                "legend4": "More detailed antigrav container"
+            },
+            "plateform": {
+                "legend1": "Platform map concept art",
+                "legend2": "Map sketch, top and bottom"
+            },
+            "drones": {
+                "legend1": "Sketch of the drones and their thrusters",
+                "legend2": "Artistic research on drones"
+            },
+            "chara": {
+                "legend1": "Concept art of the female character",
+                "legend2": "Concept art for the male character",
+                "legend3": "Sketch of the dark outfit linked to the Kickstarter",
+                "legend4": "Sketch of the clear outfit linked to the Kickstarter",
+                "legend5": "Sketch of haircuts"
+            },
+            "sheidfrana": {
+                "legend1": "Artwork from Sheid Frana, the capital",
+                "legend2": "Sketch from Sheid Frana",
+                "legend3": "Research into the view and the tower for the capital"
+            }
+        },
+        "artwork-credit": "All concept art and images by ",
+        "alt": {
+            "featuresbg": "Stylized background containing functionalities",
+            "storybg": "Stylized background containing story",
+            "carousel": {
+                "weapons": "Stylized background for the carousel containing weapons",
+                "skills": "Stylized background for skills carousel",
+                "sativa": "Stylized background for the carousel containing the sativa map",
+                "plateform": "Stylized background for the carousel containing the platform map",
+                "drones": "Stylized background for the carousel containing the drones",
+                "chara": "Stylized background for the carousel containing the characters",
+                "sheidfrana": "Stylized background for carousel containing sheid frana"
+            }
+        }
+    },
+    "ks": {
+        "why": {
+            "1": {
+                "content1": "We turned to crowdfunding because we wish to be as ",
+                "content2": "independent",
+                "content3": " as possible. We don't want to alter the vision we have for HS3, as we want to keep the 'by players and for players' aspect untouched."
+            },
+            "2": {
+                "content1": "We also want to use the Kickstarter platform as a way to bring together ",
+                "content2": "the first community",
+                "content3": ", a community with which feedback and conversations would be more natural than other ways to launch our project."
+            },
+            "3": "On the subject of the funding amount, we would need 200 000 euros, but we will initite a procedure with the french CNC, the national center of cinema and animated picture, to get a 100 000 euros grant, which would reduce what we need to fully develop the game by the same amount. When we included the Kickstarter fees, we defined an initial funding goal of 120 800 euros. Once that goal is reached, any supplementary fund would allow us to invest more into developing additional content, added after the game launched, in the form of game modes, events or tournaments for example."
+        },
+        "pledges": {
+            "1": "5 € = Your name of nickname in the credits",
+            "2": "10 € = + A kickstarter exclusive title/icon, 'pathfinder'",
+            "3": "20 € = + Closed beta access",
+            "4": "30 € = + A kickstarter exclusive HUD skin",
+            "5": "50 € [60 €]* limited to 500 = + A kickstarter exclusive weapon skin, along with the weapon in its base permanent version",
+            "6": "75 € [85 €]* limited to 500 = + A kickstarter exclusive clothing set",
+            "7": "90 € [100 €]* limited to 100 = + Chroma pack added to the backer weapon and clothing set (gold, silver, bronze, color inversion)",
+            "8": "125 € = + Digital Artbook + OST + the archive package digital file",
+            "9": "250 € limited to 10 = Write a line of dialogue to include in the story, without disrupting the conversation",
+            "10": "500 € limited to 5 = + A private, 1 hour Q&A session with the developers, that you can record and publish",
+            "11": "1.000 € limited to 2 = + Participation in the creation of an ATH skin",
+            "12": {
+                "1": "1.500 € limited to 2 = 500 € pledge",
+                "2": "+ Participation in the creation of a clothing set"
+            },
+            "13": {
+                "1": "2.500 € limited to 2 = 500 € pledge",
+                "2": "+ Participation in the creation of a weapon"
+            },
+            "14": {
+                "1": "5.000 € limited to 1 = 500 € pledge",
+                "2": "+ Participation in the creation of a map"
+            },
+            "15": {
+                "1": "7.500 € limited to 1 = 500 € pledge",
+                "2": "+ Participation in the creation of a game mode"
+            },
+            "star": "* The prices in brackets corresponds to the prices without the 'early bird' offer, which is limited in quantity. Once the limited quantities are exhausted, the price of the pledge will be the price in brackets."
+        },
+        "goals": {
+            "1": "130.000 € = Creation of a game map for 4 game modes",
+            "2": "140.000 € = Creation of an extra game mode",
+            "3": "150.000 € = Creation of a Clan system",
+            "4": "160.000 € = Possibility to customize your lobby",
+            "5": "170.000 € = Creation of a ranking system",
+            "6": "1.000.000 € = Implementation of a map creator tool"
+        },
+        "budget": {
+            "1": "Advertisement",
+            "2": "Administration/Company Fees",
+            "3": "Kickstarter Fees",
+            "4": "Development"
+        },
+        "plan": {
+            "1": {
+                "title": "Alpha (2 months) : Launcher, menu, gameplay basics, movements, 2 game modes, 2 arenas, 5 weapons, 6 skills.",
+                "access": "Internal access only."
+            },
+            "2": {
+                "title": "Beta (1 months) : 9 weapons, 8 skills, 2 game modes, 1 arena, shop.",
+                "access": "Access available to pledges > 20€"
+            },
+            "3": {
+                "title": "Early access (3 weeks) : 4 weapons, 7 skills, setting up some events.",
+                "access": "Access available to everyone."
+            },
+            "4": {
+                "title": "Version 1 (2 months) : 8 weapons, 2 game modes, 1 arena.",
+                "access": "Game launch."
+            },
+            "star": {
+                "1": "Phase (estimated time) : added content. Access.",
+                "2": "Strech goals not included"
+            }
+        },
+        "alt": {
+            "kickbg": "Stylized background containing why kickstarter",
+            "pledgesbg": "Stylized background with contributions",
+            "goalsbg": "Stylized background with strech goals",
+            "budgetbg": "Stylized background containing the budget in the form of a hatched progress bar",
+            "planbg": "Stylized background containing the schedule"
+        }
+    },
+    "whoweare": {
+        "inspi": {
+            "content1": "We are, originally, video game players. In the past, we played an online multiplayer action game that offered fights that were restless, varied and balanced. That game was our favourite for numerous years, and it left us with good memories. However, the direction the game took year after year became, in our opinion, a huge problem, which changed the game in a deep fashion, far away from what it was. We then looked around for an alternative game, in the hope to find a game that could give us the same sensations and gameplay, without success. The pursuit of this kind of experience has driven us to make HS3.",
+            "content2": "In the world of HS3, you will find influences from science fiction and fantasy works, like world trigger, ghost in the shell, or monster hunter. We also have included themes and issues from the real world, such as climate and ecology, into the story and the universe of the game."
+        },
+        "values": {
+            "content1": "We want to build, with our future team members and our community, a strong relationship, based on trust and mutual support. We want to ensure that the various feedbacks and impressions from the community are taken into account when it comes to developing HS3, to provide more balanced aspects of the HS3 experience.",
+            "content2": "We are conscious of the social issues that are innovation and ecology, we want to explore and discuss those themes through our productions.",
+            "content3": "Besides HS3, we have many other video games in our plans, which we will develop if we have the occasion and the means to do so, while regularly updating HS3, by making new content or events."
+        },
+        "risks": {
+            "content1": "The project is at the end of its design phase, so most of what you can see on this kickstarter may evolve. We are nailing down the last little details, and the project will be ready to go into development. As mentioned above, almost half of our initial funding goal will be coming from the french CNC. However, the main risk in doing so is a refusal from the CNC. We have other possibilities to get financial support, but they may not be enough to help fund the project.",
+            "content2": "On the subject of COVID, the chances that the pandemic affects our timeline is low, as working from home is already our production method. The evolution of the pandemic, as unfortunate as it may be, should not be a hurdle to the development of the game."
+        },
+        "alt": {
+            "inspi": "Stylish background with our inspirations",
+            "values": "Stylized background with our values",
+            "risks": "Stylized background with risks and challenges"
+        }
+    }
+}

@@ -1,0 +1,245 @@
+{
+    "header-title": {
+        "about": "A propos",
+        "whoweare": "Qui sommes-nous ?",
+        "alt": {
+            "headerbg": "Plusieurs hexagones formant un quadrillage avec des interstices",
+            "logo": "Logo en forme de cube avec écrit HS3",
+            "flagbg": "Fond stylisé avec des hexagons",
+            "flagfr": "Drapeau français",
+            "flagen": "Drapeau anglais"
+        }
+    },
+    "homepage": {
+        "paragraph1": {
+            "content1": ", ou ",
+            "content2": ", est un jeu d'action à la troisième personne nerveux et dynamique,fait par des joueurs pour des joueurs. Que vous soyez joueur occasionnel ou de nature compétitive, motivé par des duels au corps à corps palpitants ou par des combats à distance enflammés, ",
+            "content3": "vous ne serez pas en manque d'action",
+            "content4": ". Définissez ",
+            "content5": "votre propre style de jeu",
+            "content6": " à l'aide d'armes uniques et de compétences spéciales, et affrontez d'autres joueurs dans des modes de jeu aussi bien classiques qu'originaux."
+        },
+        "paragraph2": {
+            "content1": "Le jeu sera initialement disponible ",
+            "content2": "gratuitement",
+            "content3": ", sur PC pour Windows, en français et en anglais. Il est possible que l'on développe la version linux, et que l'on ajoute l'allemand, l'espagnol et le portugais dans le futur."
+        },
+        "video-credit": "Vidéo réalisée par ",
+        "alt": {
+            "hs3header": "Contenant le logo et le nom complet stylisés",
+            "introbg": "Fond stylisé contenant l'introduction",
+            "youtubebg": "Fond stylisé contenant le trailer youtube"
+        }
+    },
+    "footer": {
+        "form": {
+            "label": "Abonnez-vous à la newsletter !",
+            "placeholder": "Ton adresse email",
+            "button": "Souscrire"
+        },
+        "alt": {
+            "footerbg": "Plusieurs hexagones formant un quadrillage avec des interstices",
+            "formcontainer": "Banderole contenant le champs de souscription aux news",
+            "hexagon": "Hexagon bleuté transparant à l'intérieur",
+            "iconfb": "F de facebook",
+            "icontwt": "X de twitter",
+            "icondisc": "Robot Clyde de discord",
+            "iconks" : "K de Kickstarter"
+        }
+    },
+    "about": {
+        "features": {
+            "background": "./assets/background/features-fr.webp",
+            "first": {
+                "point": "Un dynamisme unique :",
+                "explain": " Que vous utilisiez une compétence spéciale ou non, profitez du panel de mouvements possibles pour surprendre l'adversaire, atteindre des endroits surélevés ou vous hâter vers votre objectif. Courez sur les murs, prenez appui sur un poteau pour changer de direction ou créez un mur pour l'utiliser comme plateforme, les possibilités de mouvements sont nombreuses pour traverser votre environnement."
+            },
+            "second": {
+                "point": "Une grande variété d'armes et de compétences :",
+                "explain": " Que vous soyez en faveur d'armes classiques ou expérimentales, des simples mitraillettes aux fusils lasers spéciaux, larsenal vous fournira de nombreuses options pour surpasser vos opposants ou aider vos alliés. Les compétences, quant à elles, vont de la simple augmentation de vie ou l'invisibilité, à la bulle temporelle et la lévitation, et vous apporteront ce qu'il vous faut pour renforcer votre style de jeu."
+            },
+            "third": {
+                "point": "Des modes de jeu classiques et originaux :",
+                "explain": " Découvrez des modes tels que le mode TouchDown, dérivé du football américain, ou encore le mode Hunter, durant lequel un joueur choisi au hasard aura un temps limité pour traquer et abattre les autres joueurs de la partie. Si vous êtes plus friand de modes de jeu simples, vous trouverez votre bonheur avec les modes DeathMatch, un match à mort en chacun pour soi, et TeamBattle, un match à mort par équipe."
+            },
+            "fourth": {
+                "point": "Une garde robe à votre goût :",
+                "explain": " Personnalisez l'apparence de vos personnage en choisissant un ensemble de vêtements, ou en combinant des éléments provenant de tenues différentes pour faire vos compositions. Avec une collection en constante évolution, et des styles allant des plus simples aux plus extravagants, vous avez l'embarras du choix pour vous démarquer de vos pairs."
+            }
+        },
+        "story": {
+            "1": {
+                "content1": "Après quelques milliers d'années, la ",
+                "content2": "planète Xolora",
+                "content3": " s'est remise de ",
+                "content4": "l'ancienne civilisation",
+                "content5": " qui a failli l'anéantir. Suite à ces évènements, les restes de cette civilisation se sont mis d'accord pour ",
+                "content6": "préserver leurs écosystèmes respectifs."
+            },
+            "2": {
+                "content1": "Au fil des années, les pays se réunissent pour faire avancer le monde. Ils utilisent un ",
+                "content2": "événement sportif holographique",
+                "content3": ", Xolora Tournament, pour mettre en avant leurs progrès technologiques, leurs performances et asseoir leurs positions, si leurs performances sont meilleures que les autres nations."
+            }
+        },
+        "carousel": {
+            "weapons": {
+                "legend1": "3 Prototypes de Mousquets",
+                "legend2": "Retravaille du premier prototype",
+                "legend3": "2 Prototypes de Bouclier offensifs"
+            },
+            "skills": {
+                "legend1": "Prototype de boulier énergétique en forme de mur",
+                "legend2": "Prototype de boulier énergétique en forme de bulle"
+            },
+            "sativa": {
+                "legend1": "Concept art de la carte Sativa",
+                "legend2": "Esquisse d'une grue et d'une usine à drones",
+                "legend3": "Esquisse des piles énergétiques et des containers anti-grav",
+                "legend4": "Container anti-grav plus détaillé"
+            },
+            "plateform": {
+                "legend1": "Concept art de la carte Platform",
+                "legend2": "Esquisse de la carte, dessus et dessous"
+            },
+            "drones": {
+                "legend1": "Esquisse des drones et de leurs propulseurs",
+                "legend2": "Recherches artistiques sur les drones"
+            },
+            "chara": {
+                "legend1": "Concept art du personnage féminin",
+                "legend2": "Concept art du personnage masculin",
+                "legend3": "Esquisse de la tenue foncé lié au Kickstarter",
+                "legend4": "Esquisse de la tenue claire lié au Kickstarter",
+                "legend5": "Esquisse des coupes de cheveux"
+            },
+            "sheidfrana": {
+                "legend1": "Artwork de Sheid Frana, la capitale",
+                "legend2": "Esquisse de Sheid Frana",
+                "legend3": "Recherche autour de la vue et de la tour pour la capitale"
+            }
+        },
+        "artwork-credit": "Tous les concept arts et images sont réalisés par ",
+        "alt": {
+            "featuresbg": "Fond stylisé contenant les fonctionnalités",
+            "storybg": "Fond stylisé contenant l'histoire",
+            "carousel": {
+                "weapons": "Fond stylisé pour le carousel contenant les armes",
+                "skills": "Fond stylisé pour le carousel contenant les compétences",
+                "sativa": "Fond stylisé pour le carousel contenant la carte sativa",
+                "plateform": "Fond stylisé pour le carousel contenant la carte platform",
+                "drones": "Fond stylisé pour le carousel contenant les drones",
+                "chara": "Fond stylisé pour le carousel contenant les personnages",
+                "sheidfrana": "Fond stylisé pour le carousel contenant sheid frana"
+            }
+        }
+    },
+    "ks": {
+        "why": {
+            "1": {
+                "content1": "Nous nous sommes tournés vers le financement participatif car nous souhaitons être aussi ",
+                "content2": "indépendants",
+                "content3": " que possible. Nous ne voulons pas compromettre la vision que nous avons pour HS3. Nous aimerions garder cet aspect « par et pour des joueurs »."
+            },
+            "2": {
+                "content1": "Nous voulons également utiliser Kickstarter comme une plateforme pour rassembler ",
+                "content2": "une première communauté",
+                "content3": ", avec laquelle les retours et échanges se feraient plus naturellement que si nous nous étions lancés par d'autres biais."
+            },
+            "3": "Pour ce qui est du montant du financement, il nous faudrait 200 000 euros, mais nous entamons une procédure avec le CNC, le Centre National du Cinéma et de l'image animée, pour obtenir une aide de 100 000 euros, ce qui diminuerait d'autant ce qu'il nous faut pour un développement complet. C'est pourquoi nous avons défini un objectif de financement initial de 120 800 euros, afin d’intégrer les frais de Kickstarter. Une fois cet objectif atteint, tout argent supplémentaire nous permettrait d'investir plus de moyens afin de développer du contenu supplémentaire, qui sera ajouté après la sortie du jeu, sous forme de modes de jeu, d'événements ou de tournois par exemple."
+        },
+        "pledges": {
+            "1": "5 € = Ajout du nom/pseudo dans les « crédits » partie remerciement",
+            "2": "10 € = + Titre/icône pour participation (pionnier/fondateur)",
+            "3": "20 € = + Accès à la bêta fermée",
+            "4": "30 € = + Skin exclusif de l'ATH",
+            "5": "50 € [60 €]* limité à 500 = + Arme permanente du skin exclusif",
+            "6": "75 € [85 €]* limité à 500 = + Set entier du skin exclusif",
+            "7": "90 € [100 €]* limité à 100 = + Pack de chromas pour l'arme et le set (chromas or, argent, bronze et inversion)",
+            "8": "125 € = + Digital Artbook + OST + version digitale d'un package d'archives",
+            "9": "250 € limité à 10 = Écriture d'une ligne de dialogue que nous devons inclure dans l'histoire, sans pertuber la conversation",
+            "10": "500 € limité à 5 = + Questions réponses en privé pendant environ 1h et enregistrement pour vidéo diffusable",
+            "11": "1.000 € limité à 2 = + Participation à la création d'un skin d'ATH",
+            "12": {
+                "1": "1.500 € limité à 2 = Pack à 500 €",
+                "2": "+ Participation à la création d'un set"
+            },
+            "13": {
+                "1": "2.500 € limité à 2 = Pack à 500 €",
+                "2": "+ Participation à la création d'une arme"
+            },
+            "14": {
+                "1": "5.000 € limité à 1 = Pack à 500 €",
+                "2": "+ Participation à la création d'une carte"
+            },
+            "15": {
+                "1": "7.500 € limité à 1 = Pack à 500 €",
+                "2": "+ Participation à la création d'un mode de jeu"
+            },
+            "star": "* Le prix entre crochets correspond au prix sans la remise en quantité limitée « early bird ». Une fois les quantités épuisées, le prix de la contribution passera au prix entre crochets."
+        },
+        "goals": {
+            "1": "130.000 € = Ajout d'une carte pour 4 modes de jeu",
+            "2": "140.000 € = Ajout d'un mode de jeu supplémentaire",
+            "3": "150.000 € = Ajout d'un système de « clan »",
+            "4": "160.000 € = Lobby Personnalisable",
+            "5": "170.000 € = Ajout d'un système de classement",
+            "6": "1.000.000 € = Implémentation d'un éditeur de carte"
+        },
+        "budget": {
+            "1": "Publicité",
+            "2": "Administration/Frais d'entreprise",
+            "3": "Frais Kickstarter",
+            "4": "Développement"
+        },
+        "plan": {
+            "1": {
+                "title": "Alpha (2 mois) : Lanceur, menu, base du gameplay, mouvements, 2 modes de jeu, 2 arènes, 5 armes, 6 compétences.",
+                "access": "Accès interne uniquement."
+            },
+            "2": {
+                "title": "Bêta (1 mois) : 9 armes, 8 compétences, 2 modes de jeu, 1 arène, boutique.",
+                "access": "Accès interne et contributeurs > 20€"
+            },
+            "3": {
+                "title": "Accès anticipé (3 semaines) : 4 armes, 7 compétences, mise en place de quelques évènements.",
+                "access": "Jeu accessible à tous."
+            },
+            "4": {
+                "title": "Version 1 (2 mois) : 8 armes, 2 modes de jeu, 1 arène.",
+                "access": "Ouverture complète du jeu."
+            },
+            "star": {
+                "1": "Phase (durée estimée) : contenu ajouté. Accès.",
+                "2": "Strech goals non inclus dans l'estimation"
+            }
+        },
+        "alt": {
+            "kickbg": "Fond stylisé contenant le pourquoi kickstarter",
+            "pledgesbg": "Fond stylisé contenant les contributions",
+            "goalsbg": "Fond stylisé contenant les strech goals",
+            "budgetbg": "Fond stylisé contenant le budget en forme de bar de progression hachurée",
+            "planbg": "Fond stylisé contenant le planning"
+        }
+    },
+    "whoweare": {
+        "inspi": {
+            "content1": "Nous sommes, au départ, des joueurs de jeux vidéo. Nous avons par le passé joué à un jeu d'action multijoueur en ligne qui proposait des combats nerveux, variés et équilibrés. Ce jeu a été pendant de nombreuses années un coup de cœur, et qui nous a laissé de bons souvenirs. Cependant, la direction qu'il a pris au fil des ans est devenue pour nous un problème majeur, qui a changé le jeu en profondeur, bien loin de ce qu'il était. Suite à cela, nous avons cherché une alternative, afin de retrouver les mêmes sensations et un style de jeu similaire, sans succès. C'est la recherche de cette expérience qui nous a poussé à développer HS3.",
+            "content2": "Pour ce qui est du monde de HS3, vous pourrez retrouver des influences provenant de diverses œuvres de science fiction et de fantasy, telles que world trigger, ghost in the shell, ou monster hunter. Nous avons également intégré des thématiques et des problématiques du monde réel dans l'histoire et l'univers du jeu, comme le climat et l'écologie."
+        },
+        "values": {
+            "content1": "Nous voulons construire, aussi bien avec notre future équipe qu'avec notre communauté, une relation forte, qui serait basée sur la confiance et l'entraide. Nous voulons faire en sorte que les divers retours et impressions de la communauté soient pris en compte lors du développement, afin de fournir des aspects de l'expérience HS3 plus équilibrés.",
+            "content2": "Nous sommes également conscients des enjeux sociétaux que sont l'innovation et l'écologie, et nous souhaitons explorer et discuter de ces thèmes au travers de nos productions.",
+            "content3": "En dehors de HS3, nous avons différents jeux vidéo en tête, que nous développerons si nous en avons l'occasion et les moyens, tout en mettant régulièrement à jour HS3, que ce soit par du nouveau contenu ou des événements par exemple."
+        },
+        "risks": {
+            "content1": "Le projet est actuellement à la fin de la conception, donc ce que vous pouvez en voir peut évoluer. C'est-à-dire que nous sommes en train de terminer les derniers détails et nous avons tout le projet de prêt pour son développement. Pour le développement, comme vous le savez, nous faisons une campagne Kickstarter qui complètera l'aide principale venant du CNC. Cependant, le risque principal dans ce procédé est un refus de la part du CNC. Mais nous avons d'autres possibilités pour le financement principal en cas de refus.",
+            "content2": "A contrario, l'un des risques actuels n'en est pas un pour nous : la covid-19 n'est pas problématique pour nous. En effet, le télétravail est déjà notre façon de faire. L'évolution de la pandémie, aussi malheureux que cela soit, ne sera pas un obstacle au développement de notre jeu vidéo."
+        },
+        "alt": {
+            "inspi": "Fond stylisé contenant nos inspirations",
+            "values": "Fond stylisé contenant nos valeurs",
+            "risks": "Fond stylisé contenant les risques et défis"
+        }
+    }
+}
