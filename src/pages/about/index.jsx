@@ -26,8 +26,8 @@ import chara4 from '../../assets/concept-arts/chara4.webp';
 import chara5 from '../../assets/concept-arts/chara5.webp';
 import carouselbgsheidfrana from '../../assets/backgrounds/carousel-sheidfranabg.webp';
 import sheidfrana1 from '../../assets/concept-arts/sheidfrana1.webp';
-import sheidfrana2 from '../../assets/concept-arts/CityLakeFINAL.jpg';
-import sheidfrana3 from '../../assets/concept-arts/CityLake.jpg';
+import sheidfrana2 from '../../assets/concept-arts/sheidfrana2.webp';
+import sheidfrana3 from '../../assets/concept-arts/sheidfrana3.webp';
 // import css
 import '../../styles/about.scss';
 import "react-responsive-carousel/lib/styles/carousel.min.css";

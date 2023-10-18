@@ -16,6 +16,7 @@ import '../styles/header.scss';
 // Header with language param
 const Header = ({ isEnglish, setEnglish }) => {
 
+    // change button-flag bottom depending on footer distance
     useEffect(() => {
         const footerHeight = document.getElementById('footer').offsetHeight;
         const button = document.getElementById('button');
@@ -23,9 +24,6 @@ const Header = ({ isEnglish, setEnglish }) => {
         const handleScroll = () => {
             const visibleWindowHeight = window.innerHeight + window.scrollY;
             const visibleFooterHeight = document.body.scrollHeight;
-            console.log('height = ', document.body.scrollHeight);
-            console.log('visibleFooter = ', visibleFooterHeight);
-            console.log('visibleHeight = ', visibleWindowHeight);
 
             if (visibleWindowHeight + 35 > visibleFooterHeight) {
                 button.style.bottom = `${footerHeight + 20}px`;
@@ -42,9 +40,9 @@ const Header = ({ isEnglish, setEnglish }) => {
             window.removeEventListener('scroll', handleScroll);
             };
     }, []);
-
+    // state to change active class
     const [isActive, setActive] = useState('logo');
-
+    
     const toggleClass = (page) => {
         if (page === 'about') {
             setActive('about')
