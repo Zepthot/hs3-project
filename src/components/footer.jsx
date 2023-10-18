@@ -17,7 +17,7 @@ function Footer () {
     const {t} = useTranslation();  
 
     return (
-        <footer className="footer-component">
+        <footer id='footer' className="footer-component">
             {/* background image */}
             <img src={fbackground} alt={t('footer.alt.footerbg')} className='footer-background' />
             <div className='footer-container-form'>

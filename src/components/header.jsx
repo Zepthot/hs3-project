@@ -1,11 +1,11 @@
 // import libraries
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 // import assets
 import hbackground from '../assets//backgrounds/header.webp';
 import logo from '../assets/icons/logo.webp';
-import flagbg from '../assets/backgrounds/flagbg.png';
+import flagbg from '../assets/backgrounds/flagbg.webp';
 import flagfr from '../assets/icons/flag-fr.webp';
 import flagen from '../assets/icons/flag-en.webp';
 // import components
@@ -15,6 +15,33 @@ import '../styles/header.scss';
 
 // Header with language param
 const Header = ({ isEnglish, setEnglish }) => {
+
+    useEffect(() => {
+        const footerHeight = document.getElementById('footer').offsetHeight;
+        const button = document.getElementById('button');
+
+        const handleScroll = () => {
+            const visibleWindowHeight = window.innerHeight + window.scrollY;
+            const visibleFooterHeight = document.body.scrollHeight;
+            console.log('height = ', document.body.scrollHeight);
+            console.log('visibleFooter = ', visibleFooterHeight);
+            console.log('visibleHeight = ', visibleWindowHeight);
+
+            if (visibleWindowHeight + 35 > visibleFooterHeight) {
+                button.style.bottom = `${footerHeight + 20}px`;
+            } else if (visibleWindowHeight > visibleFooterHeight - footerHeight) {
+                button.style.bottom = '80px';
+            } else {
+                button.style.bottom = '50px';
+            }
+        };
+
+            window.addEventListener('scroll', handleScroll);
+
+            return () => {
+            window.removeEventListener('scroll', handleScroll);
+            };
+    }, []);
 
     const [isActive, setActive] = useState('logo');
 
@@ -66,7 +93,7 @@ const Header = ({ isEnglish, setEnglish }) => {
                 </ul>
             </nav>
             {/* button container */}
-            <button className='button-flags' onClick={handleLanguageChange}>
+            <button id='button' className='button-flags' onClick={handleLanguageChange}>
                 {/* background image */}
                 <img src={flagbg} alt={t('header-title.alt.flagbg')} className='flagbg' />
                 {/* flag image depends on language */}

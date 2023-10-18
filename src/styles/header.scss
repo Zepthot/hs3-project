@@ -97,12 +97,13 @@
     // button container
     .button-flags {
         width: 43px;
-        height: 24px;
+        height: 26px;
         border: 0;
         padding: 0;
         position: fixed;
         bottom: 50px;
         left: 50px;
+        transition: 0.5s;
         // background image
         .flagbg {
             position: relative;
@@ -121,5 +122,81 @@
     
     .button-flags:hover {
         cursor: pointer;
+    }
+}
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+
+    .header-component {
+        height: 125px;
+
+        .header-particles {
+            height: 125px;
+        }
+
+        .header-background {
+            height: 125px;
+        }
+
+        .header-links {
+            height: 75px;
+            width: 75px;
+
+            .links-logo {
+                height: 125px;
+            }
+        }
+
+        .header-nav {
+
+            ul {
+                gap: 40px;
+
+                li {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+
+    .header-component {
+        height: 100px;
+
+        .header-particles {
+            height: 100px;
+        }
+
+        .header-background {
+            height: 100px;
+        }
+
+        .header-links {
+            height: 50px;
+            width: 50px;
+
+            .links-logo {
+                height: 100px;
+            }
+        }
+
+        .header-nav {
+
+            ul {
+                gap: 20px;
+
+                li {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .button-flags {
+            left: 35px;
+        }
     }
 }

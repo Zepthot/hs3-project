@@ -57,3 +57,68 @@
         }
     }
 }
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+
+    .whowe-component {
+
+        .whowe-container {
+
+            .bg-whowe {
+                width: 85%;
+            }
+
+            .paragraph-content {
+                max-width: none;
+                width: 60%;
+                left: 20%;
+            }
+
+            .content-ins-1 {
+                top: 35%;
+            }
+
+            .content-ins-2 {
+                top: 62%;
+            }
+
+            .content-val-2 {
+                top: 49%;
+            }
+        }
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+
+    .whowe-component {
+
+        .whowe-container {
+
+            .paragraph-content {
+                font-size: 15px;
+                left: 18%;
+                width: 60%;
+                max-width: none;
+            }
+
+            .content-ins-1 {
+                top: 27%;
+            }
+
+            .content-ins-2 {
+                top: 60%;
+            }
+
+            .content-val-1 {
+                top: 28%;
+            }
+
+            .content-val-2 {
+                top: 48%;
+            }
+        }
+    }
+}
