@@ -1,4 +1,5 @@
 // import libraries
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 // import assets
 import fbackground from '../assets/backgrounds/header.webp';
@@ -14,10 +15,32 @@ import '../styles/footer.scss';
 // Footer function with subscribe form and social networks
 function Footer () {
 
-    const {t} = useTranslation();  
+    const [email, setEmail] = useState('');
+
+    const handleSubmit = async (e) => {
+        console.log('submit function');
+        e.preventDefault();
+
+        const data = { email };
+        console.log(data);
+
+        const response = await fetch('http://localhost:4000/', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+        })
+            .then(response => response.json())
+            .catch(error => console.error('error = ', error));
+
+        console.log(response);
+    };
+
+    const {t} = useTranslation();
 
     return (
-        <footer id='footer' className="footer-component">
+        <footer id='footer' onSubmit={handleSubmit} className="footer-component">
             {/* background image */}
             <img src={fbackground} alt={t('footer.alt.footerbg')} className='footer-background' />
             <div className='footer-container-form'>
@@ -27,7 +50,7 @@ function Footer () {
                 <form className='container-form'>
                     <label htmlFor='email_id' className='form-label'>{t('footer.form.label')}</label>
                     <div className='container-sub-field'>
-                        <input id='email_id' type='email' name='user_email' placeholder={t('footer.form.placeholder')} required className='form-input' />
+                        <input id='email_id' type='email' name='user_email' placeholder={t('footer.form.placeholder')} required onChange={(e) => setEmail(e.target.value)} className='form-input' />
                         <button type='submit' className='form-button'>{t('footer.form.button')}</button>
                     </div>
                 </form>
