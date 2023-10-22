@@ -2,12 +2,12 @@
 
 **EN**
 
-This project is a reworking of the HS3 project website.
+This project is a reworking of the HS3 project website. It comes with a [backend](https://github.com/Zepthot/hs3-backend).
 It is built with create-react-app and as a single-page application.
 
 **FR**
 
-Ce projet est un retravaille du site web du projet HS3.
+Ce projet est un retravaille du site web du projet HS3. Il est accompagné d'un [backend](https://github.com/Zepthot/hs3-backend).
 Il est construit avec create-react-app et en application monopage.
 
 ## Available Scripts
